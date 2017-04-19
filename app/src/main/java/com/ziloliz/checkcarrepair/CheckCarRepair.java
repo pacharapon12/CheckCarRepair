@@ -32,7 +32,7 @@ public class CheckCarRepair extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent customer;
-                customer = new Intent(CheckCarRepair.this, LoginM.class);
+                customer = new Intent(CheckCarRepair.this, LoginY.class);
                 startActivity(customer);
             }
         });

@@ -15,14 +15,23 @@ public class Main extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_check_car_repair);
 
-        ImageView ผู้ดูแลระบบ = (ImageView) findViewById(R.id.imageView3);
+        ImageView add = (ImageView) findViewById(R.id.imageView3);
+        ImageView me = (ImageView) findViewById(R.id.imageView4);
 
-        ผู้ดูแลระบบ.setOnClickListener(new View.OnClickListener() {
+        add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ผู้ดูแลระบบ;
-                ผู้ดูแลระบบ = new Intent(Main.this, LoginM.class);
-                startActivity(ผู้ดูแลระบบ);
+                Intent add;
+                add = new Intent(Main.this, LoginM.class);
+                startActivity(add);
+            }
+        });
+        me.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent me;
+                me = new Intent(Main.this, LoginM.class);
+                startActivity(me);
             }
         });
     }

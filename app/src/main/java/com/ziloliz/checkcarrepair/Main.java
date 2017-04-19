@@ -1,15 +1,13 @@
 package com.ziloliz.checkcarrepair;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 
-public class CheckCarRepair extends AppCompatActivity {
+public class Main extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,11 +20,10 @@ public class CheckCarRepair extends AppCompatActivity {
         ผู้ดูแลระบบ.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                  Intent ผู้ดูแลระบบ;
-                ผู้ดูแลระบบ = new Intent(CheckCarRepair.this, LoginM.class);
-                    startActivity(ผู้ดูแลระบบ);
-                }
+                Intent ผู้ดูแลระบบ;
+                ผู้ดูแลระบบ = new Intent(Main.this, LoginM.class);
+                startActivity(ผู้ดูแลระบบ);
+            }
         });
     }
 }
-

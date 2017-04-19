@@ -17,6 +17,24 @@ public class CheckCarRepair extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_check_car_repair);
 
+        ImageView addmin = (ImageView) findViewById(R.id.imageView3);
+        ImageView customer = (ImageView) findViewById(R.id.imageView4);
 
-}}
-
+        addmin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent addmin;
+                addmin = new Intent(CheckCarRepair.this, LoginM.class);
+                startActivity(addmin);
+            }
+        });
+        customer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent customer;
+                customer = new Intent(CheckCarRepair.this, LoginM.class);
+                startActivity(customer);
+            }
+        });
+    }
+}

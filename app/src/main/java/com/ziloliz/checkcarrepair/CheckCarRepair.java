@@ -17,16 +17,6 @@ public class CheckCarRepair extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_check_car_repair);
 
-        ImageView ผู้ดูแลระบบ = (ImageView) findViewById(R.id.imageView3);
 
-        ผู้ดูแลระบบ.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                  Intent ผู้ดูแลระบบ;
-                ผู้ดูแลระบบ = new Intent(CheckCarRepair.this, LoginM.class);
-                    startActivity(ผู้ดูแลระบบ);
-                }
-        });
-    }
-}
+}}
 

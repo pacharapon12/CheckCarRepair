@@ -15,23 +15,23 @@ public class Main extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_check_car_repair);
 
-        ImageView add = (ImageView) findViewById(R.id.imageView3);
-        ImageView me = (ImageView) findViewById(R.id.imageView4);
+        ImageView addmin = (ImageView) findViewById(R.id.imageView3);
+        ImageView customer = (ImageView) findViewById(R.id.imageView4);
 
-        add.setOnClickListener(new View.OnClickListener() {
+        addmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent add;
-                add = new Intent(Main.this, LoginM.class);
-                startActivity(add);
+                Intent addmin;
+                addmin = new Intent(Main.this, LoginM.class);
+                startActivity(addmin);
             }
         });
-        me.setOnClickListener(new View.OnClickListener() {
+        customer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent me;
-                me = new Intent(Main.this, LoginM.class);
-                startActivity(me);
+                Intent customer;
+                customer = new Intent(Main.this, LoginM.class);
+                startActivity(customer);
             }
         });
     }

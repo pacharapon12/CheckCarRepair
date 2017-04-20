@@ -21,7 +21,11 @@
         <activity android:name=".Main" />
         <activity android:name=".You1" />
         <activity android:name=".You0" />
-        <activity android:name=".Me0"></activity>
+        <activity android:name=".Me0" />
+        <activity android:name=".Me1" />
+        <activity android:name=".Talk" />
+        <activity android:name=".You2" />
+        <activity android:name=".You3"></activity>
     </application>
 
 </manifest>

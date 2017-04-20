@@ -23,5 +23,16 @@ public class LoginY extends AppCompatActivity {
                 startActivity(qr);
             }
         });
+
+        ImageView back = (ImageView) findViewById(R.id.imageView22);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent back;
+                back = new Intent(LoginY.this, CheckCarRepair.class);
+                startActivity(back);
+            }
+        });
     }
 }

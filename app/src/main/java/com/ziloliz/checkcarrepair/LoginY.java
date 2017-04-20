@@ -19,7 +19,7 @@ public class LoginY extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent qr;
-                qr = new Intent(LoginY.this, You1.class);
+                qr = new Intent(LoginY.this, You0.class);
                 startActivity(qr);
             }
         });

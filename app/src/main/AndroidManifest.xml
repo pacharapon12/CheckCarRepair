@@ -25,7 +25,9 @@
         <activity android:name=".Me1" />
         <activity android:name=".Talk" />
         <activity android:name=".You2" />
-        <activity android:name=".You3"></activity>
+        <activity android:name=".You3" />
+        <activity android:name=".Me2" />
+        <activity android:name=".Me3"></activity>
     </application>
 
 </manifest>

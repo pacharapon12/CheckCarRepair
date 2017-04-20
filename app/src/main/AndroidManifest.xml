@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".LoginY" />
         <activity android:name=".LoginM" />
-        <activity android:name=".Main"></activity>
+        <activity android:name=".Main" />
+        <activity android:name=".You1"></activity>
     </application>
 
 </manifest>

@@ -13,7 +13,8 @@
         android:layout_height="193dp"
         app:srcCompat="@drawable/f1"
         tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="-63dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="527dp" />
 
     <ImageView
         android:id="@+id/imageView21"

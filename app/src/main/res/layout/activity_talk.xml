@@ -14,7 +14,7 @@
         app:srcCompat="@drawable/d2"
         tools:layout_editor_absoluteX="-3dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="473dp" />
+        android:layout_marginBottom="526dp" />
 
     <ImageView
         android:id="@+id/imageView19"

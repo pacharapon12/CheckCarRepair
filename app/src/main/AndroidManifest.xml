@@ -19,7 +19,8 @@
         <activity android:name=".LoginY" />
         <activity android:name=".LoginM" />
         <activity android:name=".Main" />
-        <activity android:name=".You1"></activity>
+        <activity android:name=".You1" />
+        <activity android:name=".You0"></activity>
     </application>
 
 </manifest>

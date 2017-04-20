@@ -86,7 +86,7 @@
         app:srcCompat="@drawable/a5"
         tools:layout_editor_absoluteX="-5dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="518dp" />
+        android:layout_marginBottom="573dp" />
 
     <ImageView
         android:id="@+id/imageView7"

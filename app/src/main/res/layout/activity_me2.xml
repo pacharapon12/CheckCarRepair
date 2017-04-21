@@ -7,6 +7,7 @@
     android:background="#171C22"
     tools:context="com.ziloliz.checkcarrepair.Me2">
 
+
     <ImageView
         android:id="@+id/imageView25"
         android:layout_width="wrap_content"
@@ -16,18 +17,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="534dp" />
 
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="50dp"
-        android:layout_height="52dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/a6" />
 
     <ImageView
         android:id="@+id/imageView26"
@@ -129,6 +118,19 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintHorizontal_bias="0.9" />
 
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/a6" />
+
     <EditText
         android:id="@+id/editText1"
         android:layout_width="338dp"
@@ -179,8 +181,8 @@
 
     <EditText
         android:id="@+id/editText4"
-        android:layout_width="223dp"
-        android:layout_height="43dp"
+        android:layout_width="224dp"
+        android:layout_height="44dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:width="100dp"
@@ -190,8 +192,8 @@
         app:layout_constraintVertical_bias="0.434"
         android:layout_marginLeft="181dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteY="269dp"
-        tools:layout_editor_absoluteX="182dp" />
+        tools:layout_editor_absoluteY="268dp"
+        tools:layout_editor_absoluteX="187dp" />
 
 
 

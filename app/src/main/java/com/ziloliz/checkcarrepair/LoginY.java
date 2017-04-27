@@ -5,14 +5,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
-public class LoginY extends AppCompatActivity {
+import com.google.zxing.Result;
+
+import me.dm7.barcodescanner.zxing.ZXingScannerView;
+
+public class LoginY extends AppCompatActivity implements ZXingScannerView.ResultHandler {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_y);
 
+        /*
         ImageView qr = (ImageView) findViewById(R.id.imageView);
 
         qr.setOnClickListener(new View.OnClickListener() {
@@ -23,6 +29,8 @@ public class LoginY extends AppCompatActivity {
                 startActivity(qr);
             }
         });
+
+        */
 
         ImageView back = (ImageView) findViewById(R.id.imageView22);
 
@@ -35,4 +43,6 @@ public class LoginY extends AppCompatActivity {
             }
         });
     }
+
+
 }

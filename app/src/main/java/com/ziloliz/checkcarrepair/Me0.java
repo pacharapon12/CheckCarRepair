@@ -15,6 +15,7 @@ public class Me0 extends AppCompatActivity {
 
         ImageView talk = (ImageView) findViewById(R.id.imageView15);
         ImageView newf = (ImageView) findViewById(R.id.imageView15);
+        ImageView gome2 = (ImageView) findViewById(R.id.imageView13);
 
 
         talk.setOnClickListener(new View.OnClickListener() {
@@ -34,5 +35,15 @@ public class Me0 extends AppCompatActivity {
                 startActivity(newf);
             }
         });
+
+        gome2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gome2;
+                gome2 = new Intent(Me0.this, Me2.class);
+                startActivity(gome2);
+            }
+        });
+
     }
 }

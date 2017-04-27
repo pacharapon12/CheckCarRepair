@@ -30,7 +30,7 @@ public class LoginY extends AppCompatActivity {
 
         */
 
-        ImageView back = (ImageView) findViewById(R.id.imageView22);
+        ImageView back = (ImageView) findViewById(R.id.buttonback);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override

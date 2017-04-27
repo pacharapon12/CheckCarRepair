@@ -57,7 +57,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/me3_success"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="10dp"
             android:checked="false"
             android:text="ซ่อมกันชนหลัง" />
         <CheckBox
@@ -67,7 +67,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/me3_success"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="20dp"
             android:checked="false"
             android:text="ซ่อมไฟหน้า" />
         <CheckBox
@@ -77,7 +77,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/me3_success"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="20dp"
             android:checked="false"
             android:text="ซ่อมไฟหลัง" />
         <CheckBox
@@ -87,7 +87,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/me3_success"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="20dp"
             android:checked="false"
             android:text="ซ่อมกระจกข้างซ้าย" />
         <CheckBox
@@ -97,7 +97,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/me3_success"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="20dp"
         android:checked="false"
         android:text="ซ่อมกระจกข้างขวา" />
         <CheckBox
@@ -107,7 +107,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/me3_success"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="20dp"
             android:checked="false"
             android:text="ซ่อมประตูนหน้าซ้าย" />
         <CheckBox
@@ -117,16 +117,18 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/me3_success"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="20dp"
             android:checked="false"
             android:text="ซ่อมประตูนหน้าขวา" />
 
-
-        <ImageView
-            android:id="@+id/me3_success"
-            android:layout_width="match_parent"
-            android:layout_height="73dp"
-            app:srcCompat="@drawable/j2" />
-
      </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/me3_success"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/j2"
+        android:layout_marginTop="600dp"/>
+
 </RelativeLayout>

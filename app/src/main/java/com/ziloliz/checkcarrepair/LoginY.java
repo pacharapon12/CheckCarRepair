@@ -7,11 +7,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.google.zxing.Result;
 
-import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
-public class LoginY extends AppCompatActivity implements ZXingScannerView.ResultHandler {
+public class LoginY extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

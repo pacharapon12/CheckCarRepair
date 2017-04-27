@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171C22"
+    tools:context="com.ziloliz.checkcarrepair.aboutMe">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/a8" />
+
+    <ImageView
+        android:id="@+id/buttonback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/a6"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="ziloliz studio"
+        android:layout_marginTop="230dp"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d4d4d4"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="ติดต่อเรา 089-999-9999"
+        android:layout_marginTop="270dp"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d4d4d4"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="ยินดีใช้บริการ"
+        android:layout_marginTop="300dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:padding="25dp"
+        app:srcCompat="@drawable/a1"
+        android:layout_below="@+id/imageView22"
+        android:layout_toEndOf="@+id/imageView22" />
+
+</RelativeLayout>

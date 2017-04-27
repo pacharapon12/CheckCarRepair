@@ -3,6 +3,7 @@
     package="com.ziloliz.checkcarrepair">
 
     <uses-permission android:name="android.permission.CAMERA" />
+
     <uses-feature android:name="android.hardware.camera" />
 
     <application
@@ -12,11 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
-
         <activity android:name=".CheckCarRepair">
-           <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -34,7 +32,8 @@
         <activity android:name=".You3" />
         <activity android:name=".Me2" />
         <activity android:name=".Me3" />
-        <activity android:name=".Qrcode"></activity>
+        <activity android:name=".Qrcode" />
+        <activity android:name=".aboutMe"></activity>
     </application>
 
 </manifest>

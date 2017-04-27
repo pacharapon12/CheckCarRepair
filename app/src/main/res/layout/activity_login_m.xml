@@ -106,7 +106,7 @@
 
         <ImageView
             app:srcCompat="@drawable/a7"
-            android:id="@+id/loginm_signin"
+            android:id="@+id/aboutmeid"
             android:layout_width="match_parent"
             android:layout_height="74dp"
             android:layout_marginTop="4dp"

@@ -39,5 +39,18 @@ public class LoginM extends AppCompatActivity {
     });
 
 
+
+
+        ImageView aboutme = (ImageView) findViewById(R.id.aboutmeid);
+        aboutme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent aboutme;
+                aboutme = new Intent(LoginM.this, aboutMe.class);
+                startActivity(aboutme);
+            }
+        });
+
+
     }
 }

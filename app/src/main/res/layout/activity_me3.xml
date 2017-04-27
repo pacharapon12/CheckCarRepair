@@ -8,10 +8,115 @@
     tools:context="com.ziloliz.checkcarrepair.Me3">
 
     <ImageView
-    android:id="@+id/me3_success"
-    android:layout_width="match_parent"
-    android:layout_height="73dp"
-    app:srcCompat="@drawable/j2" />
+        android:id="@+id/imageView18"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/j1" />
+
+    <ImageView
+        android:id="@+id/buttonback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/a6"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/me3_success"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        android:checked="false"
+        android:text="ซ่อมกันชนหน้า" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/me3_success"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="36dp"
+            android:checked="false"
+            android:text="ซ่อมกันชนหลัง" />
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/me3_success"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="36dp"
+            android:checked="false"
+            android:text="ซ่อมไฟหน้า" />
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/me3_success"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="36dp"
+            android:checked="false"
+            android:text="ซ่อมไฟหลัง" />
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/me3_success"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="36dp"
+            android:checked="false"
+            android:text="ซ่อมกระจกข้างซ้าย" />
+        <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/me3_success"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:checked="false"
+        android:text="ซ่อมกระจกข้างขวา" />
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/me3_success"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="36dp"
+            android:checked="false"
+            android:text="ซ่อมประตูนหน้าซ้าย" />
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/me3_success"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="36dp"
+            android:checked="false"
+            android:text="ซ่อมประตูนหน้าขวา" />
 
 
+        <ImageView
+            android:id="@+id/me3_success"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            app:srcCompat="@drawable/j2" />
+
+     </LinearLayout>
 </RelativeLayout>

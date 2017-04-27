@@ -6,22 +6,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class You1 extends AppCompatActivity {
+public class TalkY extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_you1);
-
-        ImageView talk = (ImageView) findViewById(R.id.imageView12);
+        setContentView(R.layout.activity_talk_y);
 
 
-        talk.setOnClickListener(new View.OnClickListener() {
+        ImageView back = (ImageView) findViewById(R.id.buttonback);
+
+        back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent talk;
-                talk = new Intent(You1.this, TalkY.class);
-                startActivity(talk);
+                Intent back;
+                back = new Intent(TalkY.this, You1.class);
+                startActivity(back);
             }
         });
     }

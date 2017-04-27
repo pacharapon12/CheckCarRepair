@@ -34,7 +34,7 @@ public class Me3 extends AppCompatActivity {
             public void onClick(View view) {
 
                 Random r = new Random();
-                int code = r.nextInt(10000000) + 10000001;
+                int code = r.nextInt(10000000) + 99999999;
                 String scode = String.valueOf(code);
 
                 FirebaseDatabase database = FirebaseDatabase.getInstance();

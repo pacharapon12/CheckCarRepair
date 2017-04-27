@@ -13,7 +13,7 @@ public class You2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_you2);
 
-        ImageView back = (ImageView) findViewById(R.id.imageView22);
+        ImageView back = (ImageView) findViewById(R.id.buttonback);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override

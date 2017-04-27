@@ -49,6 +49,17 @@ public class Me3 extends AppCompatActivity {
             }
         });
 
+        ImageView back = (ImageView) findViewById(R.id.buttonback);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent back;
+                back = new Intent(Me3.this, Me2.class);
+                startActivity(back);
+            }
+        });
+
 
     }
 }

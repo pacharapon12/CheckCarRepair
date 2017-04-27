@@ -53,7 +53,8 @@
         android:layout_marginEnd="5dp"
         android:layout_marginLeft="2dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.357" />
+        app:layout_constraintHorizontal_bias="0.357"
+        />
 
     <LinearLayout
         android:id="@+id/linearLayout"

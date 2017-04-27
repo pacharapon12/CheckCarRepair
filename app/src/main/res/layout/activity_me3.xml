@@ -9,6 +9,32 @@
 
 
 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#171C22" >
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_alignParentStart="true" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView1"
+            android:layout_below="@+id/editText1"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp" />
+
+    </RelativeLayout>
+
+
+
+
     <ImageView
         android:id="@+id/imageView18"
         android:layout_width="match_parent"
@@ -30,18 +56,21 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/a6" />
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:id="@+id/linearLayout">
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="match_parent"
             android:layout_height="59dp"
             app:srcCompat="@drawable/j3"
-
             android:layout_marginTop="70dp"/>
 
         <CheckBox

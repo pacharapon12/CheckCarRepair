@@ -19,7 +19,7 @@ public class You2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent back;
-                back = new Intent(You2.this, You0.class);
+                back = new Intent(You2.this, You1.class);
                 startActivity(back);
             }
         });

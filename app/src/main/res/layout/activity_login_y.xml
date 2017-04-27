@@ -21,7 +21,8 @@
         android:layout_height="50dp"
         app:srcCompat="@drawable/a6"
         android:paddingLeft="10dp"
-        android:paddingTop="15dp" />
+        android:paddingTop="15dp"
+        android:onClick="onClick"/>
 
     <LinearLayout
         android:layout_width="match_parent"

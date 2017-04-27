@@ -23,15 +23,12 @@ public class LoginY extends AppCompatActivity implements ZXingScannerView.Result
 
 
         ImageView back = (ImageView) findViewById(R.id.buttonback);
-
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent back;
-                Intent kook;
                 back = new Intent(LoginY.this, CheckCarRepair.class);
                 startActivity(back);
-
             }
         });
 

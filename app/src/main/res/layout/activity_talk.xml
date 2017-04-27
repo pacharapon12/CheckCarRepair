@@ -37,7 +37,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView21"
+        android:id="@+id/buttonback"
         android:layout_width="50dp"
         android:layout_height="52dp"
         app:srcCompat="@drawable/a6"

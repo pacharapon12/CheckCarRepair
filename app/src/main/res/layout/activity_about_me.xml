@@ -48,7 +48,7 @@
         android:textColor="#d4d4d4"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="ยินดีใช้บริการ"
+        android:text="ยินดีให้บริการ"
         android:layout_marginTop="300dp"/>
 
 

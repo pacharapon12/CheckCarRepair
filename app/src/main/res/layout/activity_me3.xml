@@ -17,17 +17,27 @@
 
     <ImageView
         android:id="@+id/buttonback"
-        android:layout_width="50dp"
+
         android:layout_height="50dp"
         app:srcCompat="@drawable/a6"
         android:paddingLeft="10dp"
         android:paddingTop="15dp" />
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:id="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            app:srcCompat="@drawable/j3"
+
+            android:layout_marginTop="70dp"/>
 
     <CheckBox
         android:id="@+id/checkBox1"
@@ -36,7 +46,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/me3_success"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="3dp"
         android:checked="false"
         android:text="ซ่อมกันชนหน้า" />
 

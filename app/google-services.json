@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "633245933451",
+    "firebase_url": "https://checkcarrepair-9afa8.firebaseio.com",
+    "project_id": "checkcarrepair-9afa8",
+    "storage_bucket": "checkcarrepair-9afa8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633245933451:android:cdec49c635172365",
+        "android_client_info": {
+          "package_name": "com.ziloliz.checkcarrepair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633245933451-6bhhbnnf23u1dsip1qcd954dmebjdgpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ziloliz.checkcarrepair",
+            "certificate_hash": "0f96ca05a6527808f0c6ab1ae61dd00c549806d0"
+          }
+        },
+        {
+          "client_id": "633245933451-fqgr4t8uavjj281788768a2do02t2geq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ziloliz.checkcarrepair",
+            "certificate_hash": "267f0920f8163a11c0257e7400681b41daa15875"
+          }
+        },
+        {
+          "client_id": "633245933451-2semo64kcucoluhdt7q6rng7kamqc2kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_9TOrQYeV-Sx2Wf-RhQWyZdHWcBg9VQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633245933451-2semo64kcucoluhdt7q6rng7kamqc2kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

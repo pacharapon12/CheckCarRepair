@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,4 +7,11 @@
     android:background="#171C22"
     tools:context="com.ziloliz.checkcarrepair.Me3">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+    android:id="@+id/me3_success"
+    android:layout_width="match_parent"
+    android:layout_height="73dp"
+    app:srcCompat="@drawable/j2" />
+
+
+</RelativeLayout>

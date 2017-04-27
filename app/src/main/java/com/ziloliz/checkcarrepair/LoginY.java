@@ -22,7 +22,7 @@ public class LoginY extends AppCompatActivity implements ZXingScannerView.Result
         setContentView(R.layout.activity_login_y);
 
 
-        ImageView back = (ImageView) findViewById(R.id.imageView22);
+        ImageView back = (ImageView) findViewById(R.id.buttonback);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override

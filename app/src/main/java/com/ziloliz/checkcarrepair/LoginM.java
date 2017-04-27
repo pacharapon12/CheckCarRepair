@@ -23,5 +23,21 @@ public class LoginM extends AppCompatActivity {
                 startActivity(back);
             }
         });
+
+
+
+
+    ImageView signin = (ImageView) findViewById(R.id.loginm_signin);
+
+        signin.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent signin;
+            signin = new Intent(LoginM.this, Me2.class);
+            startActivity(signin);
+        }
+    });
+
+
     }
 }

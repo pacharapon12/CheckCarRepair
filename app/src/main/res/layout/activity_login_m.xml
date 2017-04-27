@@ -89,10 +89,6 @@
         </LinearLayout>
 
 
-
-
-
-
         <ImageView
             app:srcCompat="@drawable/a2"
             android:id="@+id/loginm_signin"
@@ -101,15 +97,7 @@
             android:layout_marginTop="46dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp" />
-
-
-
-
-
-
-
-
-
+        
     </LinearLayout>
 
 </RelativeLayout>

@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.WriterException;
@@ -34,6 +36,11 @@ public class Me3 extends AppCompatActivity {
                 Random r = new Random();
                 int code = r.nextInt(10000000) + 10000001;
                 String scode = String.valueOf(code);
+
+                FirebaseDatabase database = FirebaseDatabase.getInstance();
+                DatabaseReference myRef = database.getReference("QRCODE");
+
+                myRef.setValue(scode);
 
                 MultiFormatWriter multiFormatWriter = new MultiFormatWriter();
                 try {

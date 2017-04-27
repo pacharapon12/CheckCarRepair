@@ -2,12 +2,11 @@ package com.ziloliz.checkcarrepair;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -66,26 +65,26 @@ public class LoginM extends AppCompatActivity {
     }
 
     public void btnLogin_Click(View v) {
-        final ProgressDialog progressDialog = ProgressDialog.show(LoginM.this, "Please wait...", "Proccessing...", true);
+            final ProgressDialog progressDialog = ProgressDialog.show(LoginM.this, "Please wait...", "Proccessing...", true);
 
-        (firebaseAuth.signInWithEmailAndPassword(mloginm_username.getText().toString(), mloginm_password.getText().toString()))
-                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        progressDialog.dismiss();
+            (firebaseAuth.signInWithEmailAndPassword(mloginm_username.getText().toString(), mloginm_password.getText().toString()))
+                    .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            progressDialog.dismiss();
 
-                        if (task.isSuccessful()) {
-                            Toast.makeText(LoginM.this, "Login successful", Toast.LENGTH_LONG).show();
-                            Intent i = new Intent(LoginM.this, Me0.class);
-                            i.putExtra("Email", firebaseAuth.getCurrentUser().getEmail());
-                            startActivity(i);
-                        } else {
-                            Log.e("ERROR", task.getException().toString());
-                            Toast.makeText(LoginM.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
-
+                            if (task.isSuccessful()) {
+                                Toast.makeText(LoginM.this, "Login successful", Toast.LENGTH_LONG).show();
+                                Intent i = new Intent(LoginM.this, Me0.class);
+                                i.putExtra("Email", firebaseAuth.getCurrentUser().getEmail());
+                                startActivity(i);
+                            } else {
+                                Log.e("ERROR", task.getException().toString());
+                                Toast.makeText(LoginM.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
+                            }
                         }
-                    }
-                });
+                    });
+
     }
 
 }

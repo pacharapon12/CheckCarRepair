@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
+
+
 
 public class LoginY extends AppCompatActivity {
 
@@ -13,6 +16,7 @@ public class LoginY extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_y);
 
+        /*
         ImageView qr = (ImageView) findViewById(R.id.imageView);
 
         qr.setOnClickListener(new View.OnClickListener() {
@@ -23,6 +27,8 @@ public class LoginY extends AppCompatActivity {
                 startActivity(qr);
             }
         });
+
+        */
 
         ImageView back = (ImageView) findViewById(R.id.imageView22);
 
@@ -35,4 +41,6 @@ public class LoginY extends AppCompatActivity {
             }
         });
     }
+
+
 }

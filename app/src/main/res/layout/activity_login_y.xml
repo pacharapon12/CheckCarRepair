@@ -47,9 +47,7 @@
             app:srcCompat="@drawable/a0"
             android:layout_marginTop="50dp"
             android:text="Scan QR Code"
-            android:onClick="scan"
-
-            />
+            android:onClick="scan" />
 
 
     </LinearLayout>

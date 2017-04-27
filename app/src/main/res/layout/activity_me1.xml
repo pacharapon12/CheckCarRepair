@@ -25,6 +25,230 @@
         android:paddingLeft="10dp"
         android:paddingTop="15dp" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="28dp"
+        android:padding="10dp"
+        android:weightSum="1"
+        android:layout_below="@+id/buttonback"
+        android:layout_alignParentStart="true">
+
+     <!-- ชื่อผู้ใช้ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout_name"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ชื่อ"
+            android:textColor="#FFF"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="พอล วอคเกอร์"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="15dp"
+    android:text="---------------------------------------------------------------------------------------------"
+    android:textSize="15dp"
+    android:textColor="#FFF"
+    android:layout_marginBottom="10dp"/>
+
+     <!-- ทะเบียนรถ -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout_tabuen"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="ทะเบียนรถ"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1234"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="---------------------------------------------------------------------------------------------"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_marginBottom="10dp"/>
+
+     <!-- เบอร์ติดต่อ -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout_tel"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="เบอร์ติดต่อ"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="081-234-5678"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="---------------------------------------------------------------------------------------------"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_marginBottom="10dp"/>
+
+     <!-- ยี่ห่อรถ -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout_ta"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ยี่ห้อรถ"
+            android:textColor="#FFF"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="BENZ"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="---------------------------------------------------------------------------------------------"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_marginBottom="10dp"/>
+
+     <!-- รุ่นของรถ -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout_car"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="รุ่นของรถ"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CSI1234"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="---------------------------------------------------------------------------------------------"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_marginBottom="10dp"/>
+
+     <!-- ประกันภัย -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout_ta"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="ประกันภัย"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="สินมั่งคั่ง"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="---------------------------------------------------------------------------------------------"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
 
 
 </RelativeLayout>

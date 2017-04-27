@@ -14,7 +14,7 @@ public class Me0 extends AppCompatActivity {
         setContentView(R.layout.activity_me0);
 
         ImageView talk = (ImageView) findViewById(R.id.imageView15);
-        ImageView newf = (ImageView) findViewById(R.id.imageView15);
+        ImageView newf = (ImageView) findViewById(R.id.imageView10);
         ImageView gome2 = (ImageView) findViewById(R.id.imageView13);
 
 

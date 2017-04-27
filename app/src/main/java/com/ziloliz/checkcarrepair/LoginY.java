@@ -37,10 +37,6 @@ public class LoginY extends AppCompatActivity implements ZXingScannerView.Result
 
     }
 
-
-
-
-
     public void scan (View view){
         mScannerView = new ZXingScannerView(getApplicationContext());
         setContentView(mScannerView);

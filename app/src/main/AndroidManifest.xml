@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ziloliz.checkcarrepair">
-    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -28,7 +29,8 @@
         <activity android:name=".You2" />
         <activity android:name=".You3" />
         <activity android:name=".Me2" />
-        <activity android:name=".Me3"></activity>
+        <activity android:name=".Me3" />
+        <activity android:name=".Qrcode"></activity>
     </application>
 
 </manifest>

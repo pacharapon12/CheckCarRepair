@@ -24,5 +24,17 @@ public class Me2 extends AppCompatActivity {
                 startActivity(talk);
             }
         });
+
+        ImageView next = (ImageView) findViewById(R.id.imageView33);
+
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent next;
+                next = new Intent(Me2.this, Me3.class);
+                startActivity(next);
+            }
+        });
+
     }
 }

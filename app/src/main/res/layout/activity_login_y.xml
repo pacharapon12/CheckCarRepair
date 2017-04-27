@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#171C22"
+    android:orientation="horizontal"
     tools:context="com.ziloliz.checkcarrepair.LoginY">
 
     <ImageView
@@ -44,8 +45,11 @@
             android:layout_width="match_parent"
             android:layout_height="160dp"
             app:srcCompat="@drawable/a0"
+            android:layout_marginTop="50dp"
+            android:text="Scan QR Code"
             android:onClick="scan"
-            android:layout_marginTop="50dp"/>
+
+            />
 
 
     </LinearLayout>

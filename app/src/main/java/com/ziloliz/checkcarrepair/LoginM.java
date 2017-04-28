@@ -42,15 +42,6 @@ public class LoginM extends AppCompatActivity {
                 startActivity(back);
             }
         });
-
-
-
-
-
-
-
-
-
         ImageView aboutme = (ImageView) findViewById(R.id.aboutmeid);
         aboutme.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,8 +51,6 @@ public class LoginM extends AppCompatActivity {
                 startActivity(aboutme);
             }
         });
-
-
     }
 
     public void btnLogin_Click(View v) {

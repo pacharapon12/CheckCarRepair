@@ -52,6 +52,7 @@ public class Qrcode extends AppCompatActivity {
             @Override
             public void onCancelled(DatabaseError databaseError) {
                 Toast.makeText(Qrcode.this, "เกิดข้อผิดพลาด", Toast.LENGTH_SHORT).show();
+                codeout.setText("Failed: " + databaseError.getMessage());
             }
         });
 

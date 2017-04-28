@@ -1,8 +1,11 @@
 package com.ziloliz.checkcarrepair;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
@@ -17,6 +20,8 @@ public class Qrcode extends AppCompatActivity {
     private EditText codeout;
 
     private DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
+
+
 
 
     @Override
@@ -52,6 +57,18 @@ public class Qrcode extends AppCompatActivity {
                 codeout.setText("Failed: " + databaseError.getMessage());
             }
         });
+
 */
+
+
+        Button backtohome = (Button) findViewById(R.id.buttonbackjk);
+        backtohome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent backtohome;
+                backtohome = new Intent(Qrcode.this, Me0.class);
+                startActivity(backtohome);
+            }
+        });
 }
 }

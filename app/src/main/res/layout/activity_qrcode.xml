@@ -17,12 +17,27 @@
 
     <EditText
         android:id="@+id/code"
-        android:text="กรุณารอซักครู่..."
+        android:text="กรุณารอสักครู่..."
         android:textSize="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:textColor="#FFF"
         android:gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonbackjk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:textSize="30dp"
+        android:padding="8dp"
+        android:text="กลับสู่หน้าหลัก"
+        android:background="#FFDEA72B"
+        android:textColor="#FF141414"
+        />
+
 
 </RelativeLayout>

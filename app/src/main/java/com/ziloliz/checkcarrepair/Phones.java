@@ -1,23 +1,30 @@
 package com.ziloliz.checkcarrepair;
 
-/**
- * Created by SHARAF on 28/4/2560.
- */
 
 public class Phones {
         String IDUSER;
         String FNAMEUSER;
         String LNAMEUSER;
+        String TAUSER;
+        String TELUSER;
+        String YEHO;
+        String RUAN;
+        String PAGUN;
 
 
         public Phones() {
 
         }
 
-        public Phones(String artstId, String artsName, String aetsGenre) {
-            this.IDUSER = artstId;
-            this.FNAMEUSER = artsName;
-            this.LNAMEUSER = aetsGenre;
+        public Phones(String Id, String fName, String lName, String ta, String tel, String spinner1, String spinner2, String spinner3) {
+            this.IDUSER = Id;
+            this.FNAMEUSER = fName;
+            this.LNAMEUSER = lName;
+            this.TAUSER = ta;
+            this.TELUSER = tel;
+            this.YEHO = spinner1;
+            this.RUAN = spinner2;
+            this.PAGUN = spinner3;
         }
 
         //public String getArtstId() {
@@ -25,7 +32,7 @@ public class Phones {
         //}
 
         //public String getArtsName() {
-        //    return FNAMEUSER;
+        //   return FNAMEUSER;
         //}
 
         //public String getAetsGenre() {

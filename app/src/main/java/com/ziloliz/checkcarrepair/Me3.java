@@ -22,25 +22,26 @@ import com.journeyapps.barcodescanner.BarcodeEncoder;
 
 public class Me3 extends AppCompatActivity {
 
-
     //firebase
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference("APP");
+    //
 
-    String f_name = "test1";
-    String l_name = "test2";
+
     String id;
 
-    //
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_me3);
 
+
         final Context context = this;
         ImageView success = (ImageView) findViewById(R.id.me3_success);
         success.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
 
@@ -87,10 +88,9 @@ public class Me3 extends AppCompatActivity {
             }
         });
 
-
-        Bundle bundle = getIntent().getExtras(); //ตัวแปรที่จะส่ง
-        String text = bundle.getString("TestSend"); //ตัวแปรที่จะส่ง
-
+        //นำเข้าข้อมูลจากหน้า ME2
+        Bundle bundle = getIntent().getExtras(); //ตัวแปรที่ส่งมา
+        String text = bundle.getString("TestSend"); //ตัวแปรที่ส่งมา
         CheckBox box1 = (CheckBox) findViewById(R.id.checkBox1); //ตัวแปรที่จะส่ง
         box1.setText(text); //ตัวแปรที่จะส่ง
 
@@ -99,13 +99,24 @@ public class Me3 extends AppCompatActivity {
 
     //firebase
 
-    private void addPhone() {
-        String fname = f_name.trim();
-        String lname = l_name.trim();
 
-        if (!TextUtils.isEmpty(fname)) {
+
+    private void addPhone() {
+
+        Bundle bundle = getIntent().getExtras(); //ตัวแปรที่ส่งมา
+        String f_name = bundle.getString("me2_fname");//ตัวแปรที่ส่งมา
+        String l_name = bundle.getString("me2_lname");//ตัวแปรที่ส่งมา
+        String ta = bundle.getString("me2_ta");//ตัวแปรที่ส่งมา
+        String tel = bundle.getString("me2_tel");//ตัวแปรที่ส่งมา
+        String spinner1 = bundle.getString("me2_spinner1");//ตัวแปรที่ส่งมา
+        String spinner2 = bundle.getString("me2_spinner2");//ตัวแปรที่ส่งมา
+        String spinner3 = bundle.getString("me2_spinner3");//ตัวแปรที่ส่งมา
+
+        //String fname = f_name;
+
+        if (!TextUtils.isEmpty(f_name)) {
             id = myRef.push().getKey();
-            Phones artist = new Phones(id, fname, lname);
+            Phones artist = new Phones(id, f_name, l_name, ta, tel, spinner1, spinner2, spinner3);
             myRef.child(id).setValue(artist);
             Toast.makeText(this, "Added", Toast.LENGTH_SHORT).show();
         } else {

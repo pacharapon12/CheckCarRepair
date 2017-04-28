@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">CheckCarRepair</string>
+
+    <array name="spin1">
+        <item>KIW</item>
+        <item>PON</item>
+        <item>SIN</item>
+        <item>LO</item>
+        <item>SHARP</item>
+    </array>
+
+    <array name="spin2">
+        <item>KIW</item>
+        <item>PON</item>
+        <item>SIN</item>
+        <item>LO</item>
+        <item>SHARP</item>
+    </array>
+
+    <array name="spin3">
+        <item>KIW</item>
+        <item>PON</item>
+        <item>SIN</item>
+        <item>LO</item>
+        <item>SHARP</item>
+    </array>
+
 </resources>

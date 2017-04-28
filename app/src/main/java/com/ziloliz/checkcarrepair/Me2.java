@@ -25,7 +25,7 @@ public class Me2 extends AppCompatActivity {
             }
         });
 
-        ImageView next = (ImageView) findViewById(R.id.imageView33);
+        ImageView next = (ImageView) findViewById(R.id.next);
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override

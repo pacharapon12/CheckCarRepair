@@ -52,8 +52,8 @@
 
             <EditText
                 android:id="@+id/me2_fname"
-                android:layout_width="323dp"
-                android:layout_height="50dp"/>
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
 
         </LinearLayout>
 
@@ -122,11 +122,40 @@
             android:orientation="horizontal">
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/spinner1"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="50dp"
+                android:entries="@array/spin1"/>
 
+        </LinearLayout>
 
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:entries="@array/spin2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:entries="@array/spin3"/>
 
         </LinearLayout>
 
@@ -134,7 +163,13 @@
 
     </LinearLayout>
 
-
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/g9"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/next"/>
 
 
 </RelativeLayout>

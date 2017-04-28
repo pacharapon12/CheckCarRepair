@@ -30,11 +30,17 @@ public class Me2 extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String x = "TEST SEND"; //ตัวแปรที่จะส่ง
                 Intent next;
                 next = new Intent(Me2.this, Me3.class);
+                next.putExtra("TestSend", x); //ตัวแปรที่จะส่ง
                 startActivity(next);
             }
         });
+
+
+
+
 
     }
 }

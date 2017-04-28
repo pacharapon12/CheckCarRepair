@@ -5,7 +5,6 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
@@ -20,9 +19,6 @@ public class Qrcode extends AppCompatActivity {
     private EditText codeout;
 
     private DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +36,7 @@ public class Qrcode extends AppCompatActivity {
         codeout.setEnabled(false);
 
         codeout.setText(id);
+
 /* final FirebaseDatabase database = FirebaseDatabase.getInstance();
         myRef = database.getReference();
 

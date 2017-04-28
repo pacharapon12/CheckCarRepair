@@ -34,6 +34,7 @@ public class LoginM extends AppCompatActivity {
         mloginm_password = (EditText)findViewById(R.id.loginm_password);
         mloginm_signin = (ImageView)findViewById(R.id.loginm_signin);
 
+
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,5 +76,7 @@ public class LoginM extends AppCompatActivity {
                     });
 
     }
+
+
 
 }

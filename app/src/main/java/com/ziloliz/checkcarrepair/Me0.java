@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 public class Me0 extends AppCompatActivity {
 
@@ -14,8 +15,10 @@ public class Me0 extends AppCompatActivity {
         setContentView(R.layout.activity_me0);
 
         ImageView talk = (ImageView) findViewById(R.id.imageView15);
-        ImageView newf = (ImageView) findViewById(R.id.imageView10);
-        ImageView gome2 = (ImageView) findViewById(R.id.imageView13);
+        ImageView newf = (ImageView) findViewById(R.id.imageView16);
+        RelativeLayout car1 = (RelativeLayout) findViewById(R.id.car1);
+        RelativeLayout car2 = (RelativeLayout) findViewById(R.id.car2);
+        RelativeLayout gome2 = (RelativeLayout) findViewById(R.id.pluscar);
 
 
         talk.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +47,8 @@ public class Me0 extends AppCompatActivity {
                 startActivity(gome2);
             }
         });
+
+
 
     }
 }

@@ -7,8 +7,6 @@
     android:background="#171C22"
     tools:context="com.ziloliz.checkcarrepair.Me3">
 
-
-
     <ImageView
         android:id="@+id/imageView18"
         android:layout_width="match_parent"
@@ -30,18 +28,21 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/a6" />
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:id="@+id/linearLayout">
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="match_parent"
             android:layout_height="59dp"
             app:srcCompat="@drawable/j3"
-
             android:layout_marginTop="70dp"/>
 
         <CheckBox
@@ -53,7 +54,9 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="3dp"
             android:checked="false"
-            android:text="ซ่อมกันชนหน้า" />
+            android:text="ซ่อมกันชนหน้า"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="30sp" />
 
         <CheckBox
             android:id="@+id/checkBox2"
@@ -64,7 +67,10 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="10dp"
             android:checked="false"
-            android:text="ซ่อมกันชนหลัง" />
+            android:text="ซ่อมกันชนหลัง"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="30sp" />
+
         <CheckBox
             android:id="@+id/checkBox3"
             android:layout_width="wrap_content"
@@ -74,7 +80,10 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมไฟหน้า" />
+            android:text="ซ่อมไฟหน้า"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="30sp" />
+
         <CheckBox
             android:id="@+id/checkBox4"
             android:layout_width="wrap_content"
@@ -84,7 +93,10 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมไฟหลัง" />
+            android:text="ซ่อมไฟหลัง"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="30sp" />
+
         <CheckBox
             android:id="@+id/checkBox5"
             android:layout_width="wrap_content"
@@ -94,17 +106,23 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมกระจกข้างซ้าย" />
+            android:text="ซ่อมกระจกข้างซ้าย"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="30sp" />
+
         <CheckBox
-        android:id="@+id/checkBox6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/me3_success"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="20dp"
-        android:checked="false"
-        android:text="ซ่อมกระจกข้างขวา" />
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/me3_success"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            android:text="ซ่อมกระจกข้างขวา"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="30sp" />
+
         <CheckBox
             android:id="@+id/checkBox7"
             android:layout_width="wrap_content"
@@ -114,7 +132,10 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าซ้าย" />
+            android:text="ซ่อมประตูนหน้าซ้าย"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="30sp" />
+
         <CheckBox
             android:id="@+id/checkBox8"
             android:layout_width="wrap_content"
@@ -124,7 +145,9 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าขวา" />
+            android:text="ซ่อมประตูนหน้าขวา"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="30sp" />
 
      </LinearLayout>
 

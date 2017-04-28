@@ -61,7 +61,7 @@ public class Qrcode extends AppCompatActivity {
 */
 
 
-        Button backtohome = (Button) findViewById(R.id.buttonbackjk);
+        ImageView backtohome = (ImageView) findViewById(R.id.buttonbackjk);
         backtohome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

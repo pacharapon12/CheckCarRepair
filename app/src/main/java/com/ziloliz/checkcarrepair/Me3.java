@@ -112,13 +112,6 @@ public class Me3 extends AppCompatActivity {
             Toast.makeText(this, "You should enter a name", Toast.LENGTH_SHORT).show();
         }
 
-
-
-
-
-
-
-
     }
 
 

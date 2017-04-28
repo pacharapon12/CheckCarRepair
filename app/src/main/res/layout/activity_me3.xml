@@ -7,6 +7,20 @@
     android:background="#171C22"
     tools:context="com.ziloliz.checkcarrepair.Me3">
 
+    //
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:lines="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_above="@+id/scrollView1"
+        android:layout_marginStart="57dp" />
+    //  ย้ายกลับไปด้สนบน
+
+
     <ImageView
         android:id="@+id/imageView18"
         android:layout_width="match_parent"
@@ -153,7 +167,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าซ้าย"
+            android:text="ซ่อมประตูหน้าซ้าย"
             android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="30sp" />
 
@@ -166,7 +180,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าขวา"
+            android:text="ซ่อมประตูหน้าขวา"
             android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="30sp" />
 
@@ -179,7 +193,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าขวา"
+            android:text="ซ่อมประตูหลังซ้าย"
             android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="30sp" />
 
@@ -192,7 +206,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าขวา"
+            android:text="ซ่อมประตูหลังขวา"
             android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="30sp" />
 
@@ -205,7 +219,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าขวา"
+            android:text="ซ่อมกระจกหน้า"
             android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="30sp" />
 
@@ -218,7 +232,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าขวา"
+            android:text="ซ่อมกระจกหลัง"
             android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="30sp" />
 
@@ -231,7 +245,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าขวา"
+            android:text="ซ่อมไฟหน้าซ้าย"
             android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="30sp" />
 
@@ -244,7 +258,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าขวา"
+            android:text="ซ่อมไฟหน้าขวา"
             android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="30sp" />
 
@@ -257,7 +271,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าขวา"
+            android:text="ซ่อมไฟหลังซ้าย"
             android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="30sp" />
 
@@ -270,14 +284,12 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:checked="false"
-            android:text="ซ่อมประตูนหน้าขวา"
+            android:text="ซ่อมไฟหลังขวา"
             android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="30sp" />
 
      </LinearLayout>
     </ScrollView>
-
-    //
 
 
     <ImageView

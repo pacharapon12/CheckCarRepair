@@ -5,10 +5,15 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.ScrollView;
 import android.widget.SeekBar;
 
@@ -20,25 +25,41 @@ import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.journeyapps.barcodescanner.BarcodeEncoder;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 
 public class Me3 extends AppCompatActivity {
 
+//////////////
+    EditText editText1;
+    ListView listView1;
+    //ScrollView scrollView1 ;
+    ArrayList<String> arr_list;
+//////////////
+
 
     LinearLayout layoutScroll;
     ScrollView scrollView1;
-    Button buttonSlide;
-    SeekBar seekBarSpeed;
-
-    Boolean isBottom = true;
-    int speed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_me3);
 
+////////////////////////////////////
+
+        arr_list = new ArrayList<String>();
+        arr_list.add("ซ่อมไฟหลังขวา");
+        arr_list.add("ซ่อมไฟหลังซ้าย");
+
+///////////////////////////////เพิ่มเพื่อหา
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////
 
         final Context context = this;
         ImageView success = (ImageView) findViewById(R.id.me3_success);

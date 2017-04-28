@@ -15,7 +15,7 @@ public class Me0 extends AppCompatActivity {
         setContentView(R.layout.activity_me0);
 
         ImageView talk = (ImageView) findViewById(R.id.imageView15);
-        ImageView newf = (ImageView) findViewById(R.id.imageView16);
+        //ImageView newf = (ImageView) findViewById(R.id.imageView16); // ค้นหา
         RelativeLayout car1 = (RelativeLayout) findViewById(R.id.car1);
         RelativeLayout car2 = (RelativeLayout) findViewById(R.id.car2);
         RelativeLayout gome2 = (RelativeLayout) findViewById(R.id.pluscar);
@@ -30,7 +30,16 @@ public class Me0 extends AppCompatActivity {
             }
         });
 
-        newf.setOnClickListener(new View.OnClickListener() {
+        car1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent newf;
+                newf = new Intent(Me0.this, Me1.class);
+                startActivity(newf);
+            }
+        });
+
+        car2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent newf;

@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -89,10 +88,10 @@ public class Me3 extends AppCompatActivity {
         });
 
         //นำเข้าข้อมูลจากหน้า ME2
-        Bundle bundle = getIntent().getExtras(); //ตัวแปรที่ส่งมา
-        String text = bundle.getString("TestSend"); //ตัวแปรที่ส่งมา
-        CheckBox box1 = (CheckBox) findViewById(R.id.checkBox1); //ตัวแปรที่จะส่ง
-        box1.setText(text); //ตัวแปรที่จะส่ง
+        //Bundle bundle = getIntent().getExtras(); //ตัวแปรที่ส่งมา
+        //String text = bundle.getString("TestSend"); //ตัวแปรที่ส่งมา
+        //CheckBox box1 = (CheckBox) findViewById(R.id.checkBox1); //ตัวแปรที่จะส่ง
+        //box1.setText(text); //ตัวแปรที่จะส่ง
 
 
     }

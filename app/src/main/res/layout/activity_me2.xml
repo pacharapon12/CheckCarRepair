@@ -53,7 +53,8 @@
                 android:id="@+id/me2_fname"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="#ffffff" />
+                android:background="#ffffff"
+                android:maxLines="1" />
 
         </LinearLayout>
 
@@ -73,7 +74,8 @@
                 android:id="@+id/me2_lname"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="#ffffff" />
+                android:background="#ffffff"
+                android:maxLines="1"/>
 
         </LinearLayout>
 
@@ -93,7 +95,8 @@
                 android:id="@+id/me2_ta"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="#ffffff" />
+                android:background="#ffffff"
+                android:maxLines="1"/>
 
         </LinearLayout>
 
@@ -113,7 +116,9 @@
                 android:id="@+id/me2_tel"
                 android:layout_width="323dp"
                 android:layout_height="50dp"
-                android:background="#ffffff" />
+                android:background="#ffffff"
+                android:maxLines="1"
+                android:inputType="number"/>
 
         </LinearLayout>
 

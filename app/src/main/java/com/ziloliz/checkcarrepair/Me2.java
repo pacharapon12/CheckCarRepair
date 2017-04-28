@@ -51,6 +51,7 @@ public class Me2 extends AppCompatActivity {
                 String me2_spinner2A = spinner2.getSelectedItem().toString();
                 String me2_spinner3A = spinner3.getSelectedItem().toString();
 
+
                 Intent next;
                 next = new Intent(Me2.this, Me3.class);
 
